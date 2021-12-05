@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+body{
+
+    background: #EBE7D9;
+}
+.contact_us{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+.contact_us .content_in_contact_us{
+    max-width: 800px;
+    text-align: center;
+}
+.contact_us .content_in_contact_us h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #2A3C47;
+    }
+.contact_us.content_in_contact_us p{
+    font-weight: 250;
+    color: #2A3C47;
+}
+.container_contact_us{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px ;
+}
+.container_contact_us .ContactInfo{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+.container_contact_us .ContactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container_contact_us .ContactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #2A3C47;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container_contact_us .ContactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #2A3C47;
+    flex-direction: column;
+    font-weight:250;
+}
+.container_contact_us .ContactInfo .box .text h3{
+    font-weight: 500;
+    color: #F3B340;
+}
+.contact_Form{
+    width: 40%;
+    padding: 40px;
+    background: #395160;
+}
+.contact_Form .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contact_Form .inputBox input, .contact_Form .inputBox textarea {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin:10px 0;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 1px solid #333;
+    outline: none;
+}
+.contact_Form .inputBox span{
+    position: absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    position-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contact_Form .inputBox input:focus ~ span,
+.contact_Form .inputBox input:valid ~ span,
+.contact_Form .inputBox textarea:focus ~ span,
+.contact_Form .inputBox textarea:valid ~ span{
+    color: #0a53be;
+    font-size: 12px;
+}
+
+
+
+.list-group li {
+    list-style: none
+}

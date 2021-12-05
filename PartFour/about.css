@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cormorant Garamond', serif;
+    background: #EBE7D9;
+}
+.about{
+    flex-basis: 50%;/*so that both column will occupy 50% of space*/
+    min-width: 300px;
+}
+.about h1{
+    text-align: center;
+}
+.team h1{
+    text-align: center;
+}
+.container-2{
+    text-color: #2A3C47;
+}
+.card-image-1{
+    float:left;
+    text-align: center;
+    width:33.33%;/* all img equally divided*/
+
+}
+.card-image-2{
+    float:left;
+    text-align: center;
+    width:33.33%;/* all img equally divided*/
+
+}
+.card-image-3{
+    float:left;
+    text-align: center;
+    width:33.33%;/* all img equally divided*/
+}
+
+.list-group li {
+    list-style: none
+}
+
+.team h1 {
+    margin-bottom: 0.8rem;
+}
